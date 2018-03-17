@@ -1,0 +1,11 @@
+com\chase\util\HibernateUtil.class
+com\chase\entity\Accounts.class
+com\chase\service\ProjectServiceImpl.class
+com\chase\dao\AccountsDAOImpl.class
+com\chase\dao\AccountsDaoSpring.class
+com\chase\client\AccountsClient.class
+com\chase\client\AccountsDAOClient.class
+com\chase\entity\AccountsHome.class
+com\chase\service\ProjectService.class
+com\chase\dao\AccountsDAO.class
+com\chase\dao\HibernateTestDemo.class

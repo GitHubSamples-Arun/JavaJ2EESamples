@@ -1,0 +1,5 @@
+com\student\dao\StudentDAO.class
+com\student\Student.class
+com\student\dao\StudentDAOImpl.class
+com\student\StudentCRUDTest.class
+com\student\StudentMapper.class

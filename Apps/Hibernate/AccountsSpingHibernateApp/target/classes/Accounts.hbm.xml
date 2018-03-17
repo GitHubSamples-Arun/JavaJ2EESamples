@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 7, 2017 12:56:59 AM by Hibernate Tools 5.2.1.Final -->
+<hibernate-mapping>
+ <class name="com.chase.entity.Accounts" schema="HR" table="ACCOUNTS">
+  <id name="accountNumber" type="big_decimal">
+   <column name="ACCOUNT_NUMBER" precision="22" scale="0"/>
+   <generator class="assigned"/>
+  </id>
+  <property generated="never" lazy="false" name="owner" type="string">
+   <column length="40" name="OWNER"/>
+  </property>
+  <property generated="never" lazy="false" name="balance" type="java.lang.Double">
+   <column name="BALANCE" precision="126" scale="0"/>
+  </property>
+ </class>
+</hibernate-mapping>

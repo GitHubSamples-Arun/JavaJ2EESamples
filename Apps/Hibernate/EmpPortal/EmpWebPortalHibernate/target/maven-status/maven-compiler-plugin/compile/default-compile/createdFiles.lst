@@ -1,0 +1,6 @@
+entities\EmployeesHome.class
+entities\Departments.class
+util\HibernateUtil.class
+entities\Employees.class
+impl\DepartmentsImpl.class
+entities\DepartmentsHome.class

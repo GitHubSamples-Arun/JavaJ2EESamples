@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+		<bean id="carBean" class="com.person.Car">
+			<property name="color" value="Gray"></property>
+			<property name="model" value="Hyndai"></property>
+		</bean>
+		
+		<bean id="personBean" class="com.person.Person">
+		    <property name="name" value="Kamal"></property>
+		    <property name="car" ref="carBean"></property>
+		</bean>
+		
+</beans>
