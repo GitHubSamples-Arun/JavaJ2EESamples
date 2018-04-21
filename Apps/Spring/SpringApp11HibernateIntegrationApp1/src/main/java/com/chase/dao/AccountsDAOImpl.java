@@ -18,6 +18,18 @@ public class AccountsDAOImpl implements AccountsDAO {
 
 	private SessionFactory sessionFactory;
 	Session session;
+	public Session getSession() {
+		return session;
+	}
+
+	public void setSession(Session session) {
+		this.session = session;
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
 	Accounts account;
 	
 	public void setSessionFactory(SessionFactory sf){
@@ -30,6 +42,7 @@ public class AccountsDAOImpl implements AccountsDAO {
 	
 
 	public void addAccount(Accounts accountDetails) {
+		Session session = this.sessionFactory.getCurrentSession();
 		session.persist(accountDetails);
 		logger.info("Person saved successfully, Person Details="+accountDetails);
 	}

@@ -12,6 +12,10 @@ public class ProjectServiceImpl implements ProjectService{
 	
 	private AccountsDAO accountsDAO;
     
+	public AccountsDAO getAccountsDAO() {
+		return accountsDAO;
+	}
+
 	@Transactional
 	public void setAccountsDAO(AccountsDAO accountsDAO) {
 		this.accountsDAO = accountsDAO;

@@ -1,0 +1,5 @@
+com\springorm\client\SpringOrmMain.class
+com\springorm\dao\ProductDAOImpl.class
+com\springorm\service\ProductService.class
+com\springorm\model\Product.class
+com\springorm\dao\ProductDAO.class
