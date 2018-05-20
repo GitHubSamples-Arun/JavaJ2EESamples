@@ -1,1 +1,4 @@
 http://localhost:8080/JAXRSJersey/rest/hello/HelloWorld
+
+http://localhost:8080/JAXRSJersey/rest/customer/Scott/USA
+http://localhost:8080/JAXRSJersey/rest/customers?nameKey=Tiger&countryKey=USA
