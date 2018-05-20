@@ -1,0 +1,9 @@
+http://localhost:8080/AnimalApp/createanimal.html
+
+http://localhost:8080/AnimalApp/rest/animals
+
+http://localhost:8080/AnimalApp/rest/animals/count
+
+http://localhost:8080/AnimalApp/rest/animals/2
+
+http://localhost:8080/AnimalApp/rest/animals/delete?id=2
