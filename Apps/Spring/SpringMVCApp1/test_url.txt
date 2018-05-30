@@ -1,0 +1,2 @@
+http://localhost:8080/SpringMVC1/
+http://localhost:8080/SpringMVC1/user
