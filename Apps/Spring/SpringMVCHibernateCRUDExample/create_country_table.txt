@@ -1,0 +1,7 @@
+CREATE TABLE Country  
+( 
+  id integer NOT NULL,  
+  country_name varchar2(100) NOT NULL,  
+  population long NOT NULL,
+  CONSTRAINT country_pk PRIMARY KEY (id)  
+); 
