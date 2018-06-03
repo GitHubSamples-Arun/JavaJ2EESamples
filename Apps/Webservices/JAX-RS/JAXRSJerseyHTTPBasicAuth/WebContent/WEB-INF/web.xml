@@ -18,16 +18,20 @@
 		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	
 	<servlet-mapping>
 		<servlet-name>Jersey Web Application</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
+	
 	<filter>
-    <filter-name>AuthenticationFilter</filter-name>
-    <filter-class>com.jaxrs.restjersey.authservice.RestAuthenticationFilter</filter-class>
-  </filter>
-  <filter-mapping>
-    <filter-name>AuthenticationFilter</filter-name>
-    <url-pattern>/rest/*</url-pattern>
-  </filter-mapping>
+    	<filter-name>AuthenticationFilter</filter-name>
+    	<filter-class>com.jaxrs.restjersey.authservice.RestAuthenticationFilter</filter-class>
+  	</filter>
+  	
+  	<filter-mapping>
+    	<filter-name>AuthenticationFilter</filter-name>
+    	<url-pattern>/rest/*</url-pattern>
+  	</filter-mapping>
+  	
 </web-app>

@@ -26,7 +26,7 @@ public class AuthenticationService {
 		final String username = tokenizer.nextToken();
 		final String password = tokenizer.nextToken();
 
-		// we have fixed the userid and password as admin
+		// Userid and password have been set as admin
 		// call some UserService/LDAP here
 		boolean authenticationStatus = "admin".equals(username)
 				&& "admin".equals(password);
