@@ -1,0 +1,3 @@
+http://localhost:8080/JAXRSHTTPAuth/rest/convertctof/35
+
+http://localhost:8080/JAXRSHTTPAuth/rest/convertftoc/100
