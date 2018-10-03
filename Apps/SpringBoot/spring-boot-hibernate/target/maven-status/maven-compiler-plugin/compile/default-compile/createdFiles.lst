@@ -1,0 +1,7 @@
+com\springboot\jpa\repository\PlayerRepository.class
+com\springboot\jpa\repository\TeamRepository.class
+com\springboot\jpa\service\SoccerService.class
+com\springboot\jpa\model\Team.class
+com\springboot\jpa\service\SoccerServiceImpl.class
+com\springboot\jpa\model\Player.class
+com\springboot\jpa\Application.class
