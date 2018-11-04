@@ -1,0 +1,41 @@
+/health	Returns health of the current application
+http://localhost:8080/management/health
+
+/info	Displays info about the application
+http://localhost:8080/management/info
+
+/beans	Returns all beans configured in the Bean factory
+http://localhost:8080/management/beans
+
+/env Returns the present environment properties
+http://localhost:8080/management/env
+
+http://localhost:8080/management/env/java.home
+
+/heapdump Performs a heap dump 
+http://localhost:8080/management/heapdump
+
+/threaddump Performs a thread dump of the JVM
+http://localhost:8080/management/threaddump
+
+/metrics Displays metrics information(generic and custom) of the application
+http://localhost:8080/management/metrics
+
+/auditevents Exposes audit events like user login/logout
+http://localhost:8080/management/auditevents
+
+/conditions Creates a report of conditions built around auto-configuration
+http://localhost:8080/management/conditions
+
+/configprops Displays a list of all configuration properties
+http://localhost:8080/management/configprops
+
+/loggers Shows the logger configuration logged in the application
+http://localhost:8080/management/loggers
+
+
+http://localhost:8080/management/customendpoint
+
+
+
+
