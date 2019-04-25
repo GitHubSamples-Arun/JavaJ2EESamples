@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "9b2e2497-00e3-4580-88dc-23701dabaa94",
+		"name": "Spring-boot-deptCrudJersey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "departmentsFindAll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/rest/departments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get department by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/rest/departments/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"departments",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create department",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"departmentName\": \"Payroll_dept\",\n    \"managerId\": null,\n    \"locationId\": 1700\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/rest/departments/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"departments",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update department ",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"departmentName\": \"TestingDept\",\n    \"managerId\": null,\n    \"locationId\": 1700\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/rest/departments/update/241",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"departments",
+						"update",
+						"241"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete department ",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/rest/departments/delete/250",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"departments",
+						"delete",
+						"250"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "87eb649e-dbd5-488f-ba94-00a1869af9f0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b0a25041-85e7-46d4-961f-a6071c236b6d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

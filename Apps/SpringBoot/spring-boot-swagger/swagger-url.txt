@@ -1,0 +1,19 @@
+Steps to generate swagger API spec yaml file :
+
+1. Run this component (use gradlew.bat if you are using windows):
+    ./gradlew bootRun
+
+2. Go to http://localhost:8080/swagger-ui.html to view the live API playground.
+
+3. Save response of http://localhost:8080/v2/api-docs as json, and paste it to http://editor.swagger.io,
+    convert it to yaml, to get the openAPI spec of the APIs.
+
+4. Update the yaml with the missing response model if required. Refer https://swagger.io/specification/
+    for the API spec schema.
+
+
+http://localhost:8080/swagger-ui.html
+http://localhost:8080/v2/api-docs
+
+
+
