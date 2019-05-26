@@ -1,0 +1,4 @@
+kafka:
+  bootstrap-servers: localhost:9095
+  topic:
+    json: json.t
