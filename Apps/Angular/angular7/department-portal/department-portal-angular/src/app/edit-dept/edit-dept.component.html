@@ -1,0 +1,25 @@
+<div class="col-md-6 dept-container">
+  <h2 class="text-center">Edit Dept</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <div class="hidden">
+      <input type="text" formControlName="departmentId" placeholder="departmentId" name="departmentId" class="form-control" id="departmentId">
+    </div>
+	
+	<div class="form-group">
+      <label for="departmentName">Department Name:</label>
+      <input type="text" formControlName="departmentName" placeholder="departmentName" name="departmentName" class="form-control" id="departmentName">
+    </div>
+	
+    <div class="form-group">
+      <label for="locationId">Location Id:</label>
+      <input type="number" formControlName="locationId" placeholder="locationId" name="locationId" class="form-control" id="locationId">
+    </div>
+	
+	<div class="form-group">
+      <label for="managerId">Manager Id:</label>
+      <input type="number" formControlName="managerId" placeholder="managerId" name="managerId" class="form-control" id="managerId">
+    </div>
+	
+    <button class="btn btn-success">Update</button>
+  </form>
+</div>

@@ -1,0 +1,21 @@
+<div class="col-md-6 user-container">
+  <h2 class="text-center">Add Dept</h2>
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="departmentName">Department Name:</label>
+      <input type="text" formControlName="departmentName" placeholder="departmentName" name="departmentName" class="form-control" id="departmentName">
+    </div>
+
+    <div class="form-group">
+      <label for="locationId">Location Id:</label>
+      <input type="number" formControlName="locationId" placeholder="locationId" name="locationId" class="form-control" id="locationId">
+    </div>
+
+    <div class="form-group">
+      <label for="managerId">Manager Id:</label>
+      <input type="number" formControlName="managerId" placeholder="managerId" name="managerId" class="form-control" id="managerId">
+    </div>
+
+    <button class="btn btn-success">Save</button>
+  </form>
+</div>
