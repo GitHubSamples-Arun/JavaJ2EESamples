@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   
   <properties>
-  	<spring.version>5.0.2.RELEASE</spring.version>
+  	<spring.version>5.2.3.RELEASE</spring.version>
   	<h2.version>1.4.193</h2.version>
   	<maven.compiler.source>1.9</maven.compiler.source>
     <maven.compiler.target>1.9</maven.compiler.target>
