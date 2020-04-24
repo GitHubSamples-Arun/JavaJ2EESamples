@@ -1,0 +1,4 @@
+http://localhost:8021/s1rates/default
+http://localhost:8021/s1rates/master
+http://localhost:8021/s1rates/dev
+http://localhost:8021/s1rates/qa

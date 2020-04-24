@@ -1,0 +1,18 @@
+server:
+  port: 8021
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Git2018T/spring-cloudconfig-wa-tolls
+          search-paths:
+          - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/Git2018T/spring-cloudconfig-wa-tolls-perf
+              search-paths:
+              - 'station*'
+          
