@@ -1,0 +1,2 @@
+product details view page
+guard implementation

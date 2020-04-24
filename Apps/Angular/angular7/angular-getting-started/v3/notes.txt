@@ -1,0 +1,2 @@
+service binding 
+hard coded in service
