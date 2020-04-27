@@ -1,0 +1,21 @@
+<div class='left'>
+    <div id="left-column" class="yen">
+      <article>
+        <header>
+          <h3>Japanese Yen</h3>
+        </header>
+        <div class="two-col">
+            <div class="col1">
+                <label for="field1">YEN:</label>
+                <input id="field1" name="field1" type="text" placeholder="Enter value in USD" [(ngModel)] = 'yenInput'>
+            </div>
+        
+            <div class="col2">
+                <label for="field2">USD</label>
+                <input id="field2" name="field2" type="text" placeholder="Converted value in Yen" [(ngModel)] = 'convertedValue' readonly=true>
+            </div>
+        </div>
+      </article>
+    </div>
+  </div>
+  
